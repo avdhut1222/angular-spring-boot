@@ -1,0 +1,23 @@
+<div class="design-lines-section" style="height: 80vh">
+  <div id="design-lines-grid-wrapper" class="w-100 h-100">
+    <ag-grid-angular
+      #agGrid
+      style="width: 100%; height: 100%;"
+      id="myGrid"
+      [rowData]="rowData"
+      class="ag-theme-balham"
+      [columnDefs]="columnDefs"
+      enableColResize
+      enableSorting
+      enableFilter
+      groupHeaders
+      suppressRowClickSelection
+      toolPanelSuppressGroups
+      toolPanelSuppressValues
+      rowSelection="multiple"
+      (gridSizeChanged)="onGridSizeChanged($event)"
+      (gridReady)="onGridReady($event)">
+    </ag-grid-angular>
+  </div>
+  <router-outlet></router-outlet>
+</div>

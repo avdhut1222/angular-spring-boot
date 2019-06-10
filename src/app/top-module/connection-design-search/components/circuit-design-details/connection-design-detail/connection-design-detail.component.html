@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="connection-detail-container" *ngIf="connectionDesignService.connectionDesignDetails">
+    <nav id="navbar-example2" class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="javascript:void(0);">Connection Details</a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="circuit-details" routerLinkActive="active">Circuit Details</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="administrative-section" routerLinkActive="active">Administrative Section</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="design-section" routerLinkActive="active">Design Section</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="eu-termination" routerLinkActive="active">End User Termination</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="notes-section" routerLinkActive="active">Notes Section</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="design-lines" routerLinkActive="active">Design Lines Section</a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" routerLink="circuit-xref" routerLinkActive="active">Circuit Cross Reference</a>
+          </li>
+      </ul>
+    </nav>
+    <router-outlet></router-outlet>
+  </div>
+</div>

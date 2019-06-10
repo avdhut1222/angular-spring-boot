@@ -1,0 +1,9 @@
+<div class="psr-detail-section">
+  <div class="row details-container-row"
+       *ngIf="psrSearchService.psrDetails && psrSearchService.psrDetails.orderDetailInformation">
+    <div class="col-6 details-container-col" style="" *ngFor="let key of objectKeys(psrSearchService.psrDetails.orderDetailInformation)">
+      <div class="details-container-cell"><b>{{ key | keyToString }}</b></div>
+      <div class="details-container-cell">{{ psrSearchService.psrDetails.orderDetailInformation[key] | decodeHtmlString }}</div>
+    </div>
+  </div>
+</div>

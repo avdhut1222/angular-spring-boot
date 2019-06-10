@@ -1,0 +1,23 @@
+<div class="dashvue-content">
+  <div class="container icon-jumbotron-container">
+    <div class="jumbotron dashvue-jumbotron">
+      <div class="psr-search-form">
+        <h4>PSR Search</h4>
+        <form id="top-psr-search-form" (submit)="psrSearchFormSubmit()" class="needs-validation">
+          <div class="form-group">
+            <label for="psr-search-criteria">Search Criteria</label>
+            <select class="form-control custom-select" id="psr-search-criteria" name="psr-search-criteria" [(ngModel)]="psrSearchCriteria" style="width: 400px; display: block !important;">
+              <option selected>Select search criteria</option>
+              <option *ngFor="let searchCriteria of psrSearchCriteriaOptions" [value]="searchCriteria.value">{{ searchCriteria.name }}</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="psr-search-value">Criteria Value</label>
+            <input type="text" class="form-control" id="psr-search-value" name="psr-search-value" [(ngModel)]="psrSearchValue" placeholder="" style="width: 400px;">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

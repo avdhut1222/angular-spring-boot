@@ -1,0 +1,377 @@
+[
+  {
+    "circuitDesignId": "53649",
+    "locationId": "100 /LU /SPKNWADZHCC/SPKNWADZ03W",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "62922",
+    "locationId": "100 /LU /SPKNWADZHCC/SPKNWADZH57",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "7414422",
+    "locationId": "100 /LU /SPKNWADZHCC/SPKNWADZH1E",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "8671971",
+    "locationId": "100 /LO /SPKNWADZHCC/SPKNWARV#04",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "9789510",
+    "locationId": "100 /LO /SPKNWADZHCC/SPKOWAKCN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "9957583",
+    "locationId": "100 /LO /SPKNWADZHCC/SPKNWATQN02",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "9963323",
+    "locationId": "100 /LZ /SPKNWADZHCC/STTNWAHOH2L",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "9963423",
+    "locationId": "100 /LZ /SPKNWADZHCC/SPKNWADZHCE",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "10412783",
+    "locationId": "100 /LU /SPKNWADZHCC/SPKNWADZ06W",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "10947779",
+    "locationId": "100 /LU /SPKNWADZHCC/SPKNWADZH1U",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "11481629",
+    "locationId": "100 /LU /SPKNWADZHCC/SPKNWADZHDA",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "11657958",
+    "locationId": "100 /LU /SPKNWADZHCC/SPKNWADZHDJ",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "11858498",
+    "locationId": "100 /LO /SPKNWADZHCC/SPKNWAMEN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12026217",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/SPKQWADTN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12076097",
+    "locationId": "800 /LO /SPKNWADZHCC/SPKQWACSN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12226493",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/SPKNWA65#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12226495",
+    "locationId": "80001/T1ZF /SPKNWADZHCC/SPKNWA65#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12226496",
+    "locationId": "80002/T1ZF /SPKNWADZHCC/SPKNWA65#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12264357",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/SPKOWAIJN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12402897",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/SPKQWAEIN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12469080",
+    "locationId": "80002/T1ZF /SPKNWADZHCC/SPKNWAZI#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12469081",
+    "locationId": "80003/T1ZF /SPKNWADZHCC/SPKNWAZI#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12469082",
+    "locationId": "80004/T1ZF /SPKNWADZHCC/SPKNWAZI#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12469083",
+    "locationId": "80005/T1ZF /SPKNWADZHCC/SPKNWAZI#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12470877",
+    "locationId": "80001/T1ZF /SPKNWADZHCC/SPKPWAIC#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12470897",
+    "locationId": "80002/T1ZF /SPKNWADZHCC/SPKPWAIC#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12474778",
+    "locationId": "100 /LU /SPKNWADZHCC/SPKNWADZH2J",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12518306",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/WNTCWAKKN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12521942",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/SPVYWAGIN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12546893",
+    "locationId": "800 /LO /SPKNWADZHCC/SPKNWATTN15",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12567517",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/SPKNWAMGN04",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12609397",
+    "locationId": "80002/T1ZF /SPKNWADZHCC/SPKOWATJN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12619031",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/SPKNWALGN03",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12625290",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/PSFLIDDT#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12648691",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/CRALIDAQN02",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12686226",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/LSTNIDFN#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12686227",
+    "locationId": "80001/T1ZF /SPKNWADZHCC/LSTNIDFN#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12696178",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/SPKMWAHRN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12700358",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/SPKOWAMC#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12700362",
+    "locationId": "80001/T1ZF /SPKNWADZHCC/SPKOWAMC#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12704701",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/LSTNIDHKN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12704863",
+    "locationId": "800 /LO /SPKNWADZHCC/LSTNIDKA#01",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12715665",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/RCLDWAHWN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12715925",
+    "locationId": "800 /LO /SPKNWADZHCC/CKTNWABU#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12719140",
+    "locationId": "800 /LO /SPKNWADZHCC/LSTNIDEL#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12723557",
+    "locationId": "800 /LO /SPKNWADZHCC/CRALIDFIH04",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12746071",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/RCLDWABPN03",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12768112",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/CRALID79N00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12768113",
+    "locationId": "80001/T1ZF /SPKNWADZHCC/CRALID79N00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12799840",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/CRALIDVPN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12826449",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/SPKNWA97N02",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12826450",
+    "locationId": "80001/T1ZF /SPKNWADZHCC/SPKNWA97N02",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12826839",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/SPKNWA08N02",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12826840",
+    "locationId": "80001/T1ZF /SPKNWADZHCC/SPKNWA08N02",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12844458",
+    "locationId": "100 /LU /SPKNWADZHCC/SPKNWADZHU3",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12848713",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/OPRTWAAZN01",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12848714",
+    "locationId": "80001/T1ZF /SPKNWADZHCC/OPRTWAAZN01",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12848715",
+    "locationId": "80002/T1ZF /SPKNWADZHCC/OPRTWAAZN01",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12850253",
+    "locationId": "800 /LO /SPKNWADZHCC/LSTNID04H00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12850483",
+    "locationId": "800 /LO /SPKNWADZHCC/CKTNWADUH00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12863923",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/SPKOWABAN01",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12863925",
+    "locationId": "80001/T1ZF /SPKNWADZHCC/SPKOWABAN01",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12866661",
+    "locationId": "800 /LO /SPKNWADZHCC/CRALIDEGH00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12900057",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/MRDNIDJQN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12925518",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/BSCYIDEGN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12926437",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/CRALIDRDN01",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12929343",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/PASCWALAN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12931869",
+    "locationId": "800 /LO /SPKNWADZHCC/PSFLIDJG#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12937218",
+    "locationId": "800 /LO /SPKNWADZHCC/CHNYWABON00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12943049",
+    "locationId": "800 /LO /SPKNWADZHCC/CRALIDBC#00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12959017",
+    "locationId": "800 /LO /SPKNWADZHCC/CRALID28N00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "12966069",
+    "locationId": "80000/T1ZF /SPKNWADZHCC/PASCWAGEN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "13165492",
+    "locationId": "80000/T1 ETL/SPKNWADZHCC/MRDNIDJQN00",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "13254246",
+    "locationId": "100 /LZ-ETL/SPKNWADZHCC/STTNWAHOH2L",
+    "locationId2": "SPKNWADZHCC"
+  },
+  {
+    "circuitDesignId": "13303638",
+    "locationId": "101 /LZ /SPKNWADZHCC/STTNWAHOH2L",
+    "locationId2": "SPKNWADZHCC"
+  }
+]

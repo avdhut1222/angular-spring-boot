@@ -1,0 +1,76 @@
+<div class="children-order-section" *ngIf="childSRs">
+    <strong>Child Order Information</strong><br><br>
+
+    <div class="location-info-container" *ngIf="childSRs.childLsr && childSRs.childLsr.length > 0">
+        <strong>Child LSR</strong>
+        <div class="row details-container-row">
+            <div class="col-4 details-container-col"><b>LSR</b></div>
+            <div class="col-4 details-container-col"><b>BAN</b></div>
+            <div class="col-4 details-container-col"><b>FOC Date</b></div>
+        </div>
+        <ng-container *ngFor="let lsrServiceLocation of childSRs.childLsr">
+            <div class="row details-container-row">
+                <div class="col-4 details-container-col">
+                    <a href="{{ 'http://tbsapps/xo_tbspreview_lsr_rsp.asp?lsr=' + lsrServiceLocation.pon }}" target="_blank">
+                        {{ lsrServiceLocation.pon != '' ? lsrServiceLocation.pon : 'NOPON' }}
+                    </a>
+                </div>
+                <div class="col-4 details-container-col">{{ lsrServiceLocation.ban }}</div>
+                <div class="col-4 details-container-col">{{ lsrServiceLocation.focDate }}</div>
+            </div>
+        </ng-container>
+    </div>
+
+    <div class="location-info-container" *ngIf="childSRs.childAsr && childSRs.childAsr.length > 0">
+        <strong>Child ASR</strong>
+        <div class="row details-container-row">
+            <div class="col-4 details-container-col"><b>ASR</b></div>
+            <div class="col-4 details-container-col"><b>BAN</b></div>
+            <div class="col-4 details-container-col"><b>FOC Date</b></div>
+        </div>
+        <ng-container *ngFor="let asrServiceLocation of childSRs.childAsr">
+            <div class="row details-container-row">
+                    <div class="col-4 details-container-col">
+                        <a href="{{ 'http://tbsapps/xo_tbspreview_asr_rsp.asp?asr=' + asrServiceLocation.pon }}" target="_blank">
+                            {{ asrServiceLocation.pon }}
+                        </a>
+                    </div>
+                <div class="col-4 details-container-col">{{ asrServiceLocation.ban }}</div>
+                <div class="col-4 details-container-col">{{ asrServiceLocation.focDate }}</div>
+            </div>
+        </ng-container>
+    </div>
+
+    <div class="location-info-container" *ngIf="childSRs.childIsr && childSRs.childIsr.length > 0">
+        <strong>Child ISR</strong>
+        <div class="row details-container-row">
+            <div class="col-12 details-container-col"><b>ISR</b></div>
+        </div>
+        <ng-container *ngFor="let isrServiceLocation of childSRs.childIsr">
+            <div class="row details-container-row">
+                <div class="col-12 details-container-col">
+                    <a href="{{ 'http://tbsapps/xo_tbspreview_isr_rsp.asp?' + isrServiceLocation.documentNumber }}" target="_blank">
+                        {{ isrServiceLocation.documentNumber }}
+                    </a>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+
+    <div class="location-info-container" *ngIf="childSRs.childPsr && childSRs.childPsr.length > 0">
+        <strong>Child PSR</strong>
+        <div class="row details-container-row">
+            <div class="col-12 details-container-col"><b>PSR</b></div>
+        </div>
+        <ng-container *ngFor="let psrServiceLocation of childSRs.childPsr">
+            <div class="row details-container-row">
+                <div class="col-12 details-container-col">
+                    <a routerLink="/top/psr-details/{{ psrServiceLocation.documentNumber }}" target="_blank">
+                        {{ psrServiceLocation.documentNumber }}
+                    </a>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+
+</div>

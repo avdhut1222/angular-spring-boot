@@ -1,0 +1,24 @@
+<div class="dashvue-content">
+  <div class="container icon-jumbotron-container">
+    <div class="jumbotron dashvue-jumbotron" *ngIf="navCategories">
+      <div *ngFor="let category of navCategories, let last = last" class="link-category">
+        <h4 class="text-center">{{ category.name | decodeHtmlString}}</h4>
+        <div class="row">
+          <div *ngFor="let navLink of category.navLinks" class="col-lg-3 col-md-4 col-sm-5 icon-tile">
+            <div class="text-center">
+              <a *ngIf="!navLink.isDashvueLink" class="" [href]="navLink.aHref" [id]="navLink.name">
+                <img [src]="baseImageUrl + navLink.mediaSrc" class="link-image">
+                <div>{{ navLink.name | decodeHtmlString }}</div>
+              </a>
+              <a *ngIf="navLink.isDashvueLink" class="" [routerLink]="navLink.aHref" routerLinkActive="active" [id]="navLink.name">
+                <img [src]="baseImageUrl + navLink.mediaSrc" class="link-image">
+                <div>{{ navLink.name | decodeHtmlString }}</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr *ngIf="!last" class="my-4">
+      </div>
+    </div>
+  </div>
+</div>

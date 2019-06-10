@@ -1,0 +1,93 @@
+<div class="circuit-detail-section">
+    <div *ngIf="psrSearchService.psrDetails && psrSearchService.psrDetails.globalServiceLocationProducts"
+         style="border-top: 1px #111111 solid; border-left: 1px #111111 solid;">
+        <div *ngFor="let gslp of psrSearchService.psrDetails.globalServiceLocationProducts" class="row table-row"
+             style="margin-right: 0 !important; margin-left: 0 !important;">
+            <div
+                    class="col-12 table-cell">
+                <b>{{ (gslp.itemAlias ? gslp.itemAlias + ' - ' : '') + (gslp.itemAliasSuf ? gslp.itemAliasSuf : '') + ' ' + (gslp.activityCdText ? '(' + gslp.activityCdText + ')' : '') }}</b>
+            </div>
+            <div class="col-3 table-cell" *ngIf="gslp.valueLabels && gslp.valueLabels.length > 0"></div>
+            <div class="col-3 table-cell"
+                 *ngIf="gslp.valueLabels && gslp.valueLabels.length > 0">{{ gslp.servItemDesc }}</div>
+            <div class="col-6" *ngIf="gslp.valueLabels && gslp.valueLabels.length > 0"
+                 style="padding-left: 0 !important; padding-right: 0 !important;">
+                <div class="row" style="width: 100%; margin-left: 0 !important; margin-right: 0 !important;"
+                     *ngFor="let valueLabel of gslp.valueLabels">
+                    <div class="col-6 table-cell"
+                         style="padding-left: 0 !important; padding-right: 0 !important;">{{ valueLabel.valueLabel }}</div>
+                    <div class="col-6 table-cell"
+                         style="padding-left: 0 !important; padding-right: 0 !important;">{{ valueLabel.validValue }}</div>
+                </div>
+            </div>
+
+            <ng-container
+                    *ngIf="(gslp.primaryLocations && gslp.primaryLocations.length > 0) ||
+                    (gslp.secondaryLocations && gslp.secondaryLocations.length > 0) ||
+                    (gslp.orderServiceLocations && gslp.orderServiceLocations.length > 0)">
+                <div class="col-3 table-cell"></div>
+                <div class="col-9 table-cell">
+                    <p *ngFor="let priLoc of gslp.primaryLocations">
+                        <b>{{ priLoc.sslServLocUse }}</b> <br>
+                        {{ (priLoc.custClli ? priLoc.custClli + ' - ' : '') + priLoc.locationName }} <br>
+                        {{ (priLoc.addrLn1 ? priLoc.addrLn1 : '')}} <br *ngIf="priLoc.addrLn1">
+                        {{ (priLoc.addrLn2 ? priLoc.addrLn2 : '')}} <br *ngIf="priLoc.addrLn2">
+                        {{ (priLoc.addrLn3 ? priLoc.addrLn3 : '')}} <br *ngIf="priLoc.addrLn3">
+                        {{ (priLoc.addrLn4 ? priLoc.addrLn4 : '')}} <br *ngIf="priLoc.addrLn4">
+                        {{ (priLoc.addrLn5 ? priLoc.addrLn5 : '')}} <br *ngIf="priLoc.addrLn5">
+                        {{ (priLoc.suite ? 'Suite: ' + priLoc.suite : '')}} <br *ngIf="priLoc.suite">
+                        {{ (priLoc.floor ? 'Floor: ' + priLoc.addrLn1 : '')}} <br *ngIf="priLoc.floor">
+                        {{ (priLoc.room ? 'Room: ' + priLoc.room : '')}} <br *ngIf="priLoc.room">
+                        {{ (priLoc.additionalAddressInfo ? 'Addtl Info: ' + priLoc.room : '')}} <br
+                            *ngIf="priLoc.additionalAddressInfo">
+                        {{ (priLoc.tnSwitch ? 'TN Switch: ' + priLoc.tnSwitch : '')}} <br *ngIf="priLoc.tnSwitch">
+                        {{ (priLoc.custDemarc ? 'Cust Demarc: ' + priLoc.custDemarc : '')}} <br
+                            *ngIf="priLoc.custDemarc">
+                        {{ (priLoc.connectingFacility ? 'Connection Facility: ' + priLoc.connectingFacility : '')}} <br
+                            *ngIf="priLoc.connectingFacility">
+                        {{ priLoc.fromChanAssignment ? priLoc.fromChanAssignment + ' - ' : '' }} {{ priLoc.toChanAssignment ? priLoc.toChanAssignment : '' }}
+                    </p>
+                    <p *ngFor="let secLoc of gslp.secondaryLocations">
+                        <b>{{ secLoc.sslServLocUse }}</b> <br>
+                        {{ (secLoc.custClli ? secLoc.custClli + ' - ' : '') + secLoc.locationName }} <br>
+                        {{ (secLoc.addrLn1 ? secLoc.addrLn1 : '')}} <br *ngIf="secLoc.addrLn1">
+                        {{ (secLoc.addrLn2 ? secLoc.addrLn2 : '')}} <br *ngIf="secLoc.addrLn2">
+                        {{ (secLoc.addrLn3 ? secLoc.addrLn3 : '')}} <br *ngIf="secLoc.addrLn3">
+                        {{ (secLoc.addrLn4 ? secLoc.addrLn4 : '')}} <br *ngIf="secLoc.addrLn4">
+                        {{ (secLoc.addrLn5 ? secLoc.addrLn5 : '')}} <br *ngIf="secLoc.addrLn5">
+                        {{ (secLoc.suite ? 'Suite: ' + secLoc.suite : '')}} <br *ngIf="secLoc.suite">
+                        {{ (secLoc.floor ? 'Floor: ' + secLoc.addrLn1 : '')}} <br *ngIf="secLoc.floor">
+                        {{ (secLoc.room ? 'Room: ' + secLoc.room : '')}} <br *ngIf="secLoc.room">
+                        {{ (secLoc.additionalAddressInfo ? 'Addtl Info: ' + secLoc.room : '')}} <br
+                            *ngIf="secLoc.additionalAddressInfo">
+                        {{ (secLoc.tnSwitch ? 'TN Switch: ' + secLoc.tnSwitch : '')}} <br *ngIf="secLoc.tnSwitch">
+                        {{ (secLoc.custDemarc ? 'Cust Demarc: ' + secLoc.custDemarc : '')}} <br
+                            *ngIf="secLoc.custDemarc">
+                        {{ (secLoc.connectingFacility ? 'Connection Facility: ' + secLoc.connectingFacility : '')}} <br
+                            *ngIf="secLoc.connectingFacility">
+                        {{ secLoc.fromChanAssignment ? secLoc.fromChanAssignment + ' - ' : '' }} {{ secLoc.toChanAssignment ? secLoc.toChanAssignment : '' }}
+                    </p>
+                    <p *ngFor="let osLoc of gslp.orderServiceLocations">
+                        <b>{{ osLoc.sslServLocUse }}</b> <br>
+                        {{ (osLoc.custClli ? osLoc.custClli + ' - ' : '') + osLoc.locationName }} <br>
+                        {{ (osLoc.addrLn1 ? osLoc.addrLn1 : '')}} <br *ngIf="osLoc.addrLn1">
+                        {{ (osLoc.addrLn2 ? osLoc.addrLn2 : '')}} <br *ngIf="osLoc.addrLn2">
+                        {{ (osLoc.addrLn3 ? osLoc.addrLn3 : '')}} <br *ngIf="osLoc.addrLn3">
+                        {{ (osLoc.addrLn4 ? osLoc.addrLn4 : '')}} <br *ngIf="osLoc.addrLn4">
+                        {{ (osLoc.addrLn5 ? osLoc.addrLn5 : '')}} <br *ngIf="osLoc.addrLn5">
+                        {{ (osLoc.suite ? 'Suite: ' + osLoc.suite : '')}} <br *ngIf="osLoc.suite">
+                        {{ (osLoc.floor ? 'Floor: ' + osLoc.addrLn1 : '')}} <br *ngIf="osLoc.floor">
+                        {{ (osLoc.room ? 'Room: ' + osLoc.room : '')}} <br *ngIf="osLoc.room">
+                        {{ (osLoc.additionalAddressInfo ? 'Addtl Info: ' + osLoc.room : '')}} <br
+                            *ngIf="osLoc.additionalAddressInfo">
+                        {{ (osLoc.tnSwitch ? 'TN Switch: ' + osLoc.tnSwitch : '')}} <br *ngIf="osLoc.tnSwitch">
+                        {{ (osLoc.custDemarc ? 'Cust Demarc: ' + osLoc.custDemarc : '')}} <br *ngIf="osLoc.custDemarc">
+                        {{ (osLoc.connectingFacility ? 'Connection Facility: ' + osLoc.connectingFacility : '')}} <br
+                            *ngIf="osLoc.connectingFacility">
+                        {{ osLoc.fromChanAssignment ? osLoc.fromChanAssignment + ' - ' : '' }} {{ osLoc.toChanAssignment ? osLoc.toChanAssignment : '' }}
+                    </p>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</div>

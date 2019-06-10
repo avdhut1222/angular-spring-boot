@@ -1,0 +1,13 @@
+<div class="sr-hierarchy-section"
+     *ngIf="psrSearchService.psrDetails && psrSearchService.psrDetails.srHierarchies && psrSearchService.psrDetails.srHierarchies.length > 0">
+    <ng-container *ngFor="let srHierarchy of psrSearchService.psrDetails.srHierarchies">
+        <div class="row details-container-row">
+            <div class="col-4 details-container-col">{{ srHierarchy.parentSr }}</div>
+            <div class="col-4 details-container-col">{{ srHierarchy.parentType }}</div>
+            <div class="col-4 details-container-col"><a [href]="renderTopLink(srHierarchy, true)" target="_blank">{{ getIdentifierValue(srHierarchy, true)}}</a> </div>
+            <div class="col-4 details-container-col" [style.padding-left]="calculateChildPadding(srHierarchy.level)">{{ srHierarchy.childSr }}</div>
+            <div class="col-4 details-container-col">{{ srHierarchy.childType }}</div>
+            <div class="col-4 details-container-col"><a [href]="renderTopLink(srHierarchy, false)" target="_blank">{{ getIdentifierValue(srHierarchy, false)}}</a> </div>
+        </div>
+    </ng-container>
+</div>

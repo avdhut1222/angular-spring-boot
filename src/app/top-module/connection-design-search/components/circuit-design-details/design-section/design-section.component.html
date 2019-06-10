@@ -1,0 +1,23 @@
+<!--<div class="design-section">-->
+  <!--<table class="table table-hover">-->
+    <!--<tbody *ngIf="designInformation">-->
+    <!--<tr *ngFor="let key of objectKeys(designInformation)">-->
+      <!--<td>{{ key | keyToString }}</td>-->
+      <!--<td>{{ designInformation[key] }}</td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+  <!--</table>-->
+<!--</div>-->
+
+
+<div class="design-section">
+    <div class="row details-container-row"
+         *ngIf="connectionDesignService.connectionDesignDetails.designInformation">
+        <ng-container *ngFor="let key of objectKeys(connectionDesignService.connectionDesignDetails.designInformation)">
+            <div class="col-6 details-container-col" *ngIf="connectionDesignService.connectionDesignDetails.designInformation[key]">
+                <div class="details-container-cell"><b>{{ key | keyToString }}</b></div>
+                <div class="details-container-cell">{{ connectionDesignService.connectionDesignDetails.designInformation[key] | decodeHtmlString }}</div>
+            </div>
+        </ng-container>
+    </div>
+</div>

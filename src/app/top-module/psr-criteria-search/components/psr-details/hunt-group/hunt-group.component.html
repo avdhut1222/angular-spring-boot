@@ -1,0 +1,34 @@
+<div class="hunt-group-section"
+     *ngIf="psrSearchService.psrDetails && psrSearchService.psrDetails.huntGroups && psrSearchService.psrDetails.huntGroups.length > 0">
+    <strong>Hunt Groups</strong>
+    <div class="row details-container-row">
+        <div class="col-3 details-container-col"><b>Hunt Grp Type</b></div>
+        <div class="col-3 details-container-col"><b>Status</b></div>
+        <div class="col-3 details-container-col"><b>Name</b></div>
+        <div class="col-3 details-container-col"><b>Number</b></div>
+    </div>
+    <ng-container *ngFor="let huntGroup of psrSearchService.psrDetails.huntGroups">
+        <div class="row details-container-row">
+            <div class="col-3 details-container-col"> {{ huntGroup.huntGroupType }} </div>
+            <div class="col-3 details-container-col"> {{ huntGroup.status }} </div>
+            <div class="col-3 details-container-col"> {{ huntGroup.name }} </div>
+            <div class="col-3 details-container-col"> {{ huntGroup.number }} </div>
+        </div>
+        <ng-container *ngIf="huntGroup.details && huntGroup.details.length > 0">
+            <div class="row details-container-row">
+                <div class="col-3 details-container-col"><b>Hunt Fr</b></div>
+                <div class="col-3 details-container-col"><b>Hunt To</b></div>
+                <div class="col-3 details-container-col"><b>Activity</b></div>
+                <div class="col-3 details-container-col">&nbsp;</div>
+            </div>
+            <ng-container *ngFor="let detail of huntGroup.details">
+                <div class="row details-container-row">
+                    <div class="col-3 details-container-col"> {{ detail.huntFr }} </div>
+                    <div class="col-3 details-container-col"> {{ detail.huntTo }} </div>
+                    <div class="col-3 details-container-col"> {{ detail.activity}} </div>
+                    <div class="col-3 details-container-col">&nbsp;</div>
+                </div>
+            </ng-container>
+        </ng-container>
+    </ng-container>
+</div>

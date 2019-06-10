@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~ag-grid/dist/styles/ag-grid.css";
+@import "~ag-grid/dist/styles/ag-theme-balham.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+html,body{
+  height: 100%;
+  word-break: break-word;
+}
+*{
+  box-sizing: border-box;
+}
+
+.dashvue-header {
+  margin-bottom: 5vh;
+}
+
+.dashvue-content {
+  margin-bottom: 15vh;
+}
+
+.dashvue-jumbotron {
+  min-height: 60vh;
+}
+
+.verizon-logo {
+  background-image: url(assets/images/vzlogo_lg.png);
+}
+.link-image{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  -ms-filter: invert(100%);
+  width: 2rem;
+}
+.table td, .table th {
+  width: 50%;
+}
+
+// psr details children sections
+.details-container-row {
+  border-top: 1px #111111 solid;
+  border-left: 1px #111111 solid;
+}
+
+.details-container-col {
+  border-bottom: 1px solid #dee2e6;
+  border-right: 1px #111111 solid;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.details-container-col:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.details-container-cell {
+  width: 50%;
+  display: inline-block;
+  padding-left: 0.8rem;
+}
+
+ //override ag-grid odd rows background coloring
+//.ag-theme-balham .ag-row-odd {
+//    background-color: lightgray;
+//}

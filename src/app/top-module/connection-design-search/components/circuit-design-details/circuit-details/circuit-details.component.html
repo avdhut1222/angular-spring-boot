@@ -1,0 +1,9 @@
+<div class="circuit-details-section"
+     *ngIf="connectionDesignService.connectionDesignDetails && connectionDesignService.connectionDesignDetails.clrNotes">
+    <div class="row details-container-row" *ngIf="connectionDesignService.connectionDesignDetails.clrNotes">
+        <div class="col-6 details-container-col">
+            <div class="details-container-cell"><b>CLR Notes</b></div>
+            <div class="details-container-cell">{{ connectionDesignService.connectionDesignDetails.clrNotes }}</div>
+        </div>
+    </div>
+</div>

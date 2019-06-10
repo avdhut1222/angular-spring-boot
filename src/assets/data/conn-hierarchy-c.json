@@ -1,0 +1,40 @@
+[
+    {
+        "circuitDesignId": 13580558,
+        "circuitId": "SF/LZXX/255912/   /TQW /HUB",
+        "circuitType": "C",
+        "status": "In Service",
+        "children": [
+            {
+                "circuitDesignId": 13641248,
+                "circuitId": "SF/L2YX/287802/   /TWQ /ELK",
+                "circuitType": "S",
+                "status": "In Service"
+            },
+            {
+                "circuitDesignId": 13657697,
+                "circuitId": "SF/L3XX/296397/   /TQW /ELK",
+                "circuitType": "S",
+                "status": "In Service"
+            },
+            {
+                "circuitDesignId": 13664019,
+                "circuitId": "SF/L3YX/300777/   /TQW /ELK",
+                "circuitType": "S",
+                "status": "Record Issued"
+            },
+            {
+                "circuitDesignId": 13669067,
+                "circuitId": "SF/L3YX/303692/   /TQW /ELK",
+                "circuitType": "S",
+                "status": "Record Issued"
+            },
+            {
+                "circuitDesignId": 13670608,
+                "circuitId": "SF/L3XX/304805/   /TQW /ELK",
+                "circuitType": "S",
+                "status": "Record Issued"
+            }
+        ]
+    }
+]

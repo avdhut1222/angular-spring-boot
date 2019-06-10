@@ -1,0 +1,20 @@
+<div style="margin-left: 30px">
+    <a *ngIf="(node.children && node.children.length) || (node.parents && node.parents.length)" (click)="toggleNode()">
+<!--        <i [ngClass]="{'glyphicon glyphicon-plus': !toggle, 'glyphicon glyphicon-minus': toggle}"></i>-->
+        +
+    </a>
+    <a routerLink="/top/circuit-design-details/circuit-id/{{ node.circuitDesignId }}"
+       routerLinkActive="active">{{node.circuitId}}: {{node.status}}</a>
+    <div style="margin-left: 30px" *ngIf="toggle">
+        <ng-container *ngIf="node.children && node.children.length">
+            <div *ngFor="let childNode of node.children">
+                <app-connection-hierarchy-node [node]="childNode"></app-connection-hierarchy-node>
+            </div>
+        </ng-container>
+        <ng-container *ngIf="node.parents && node.parents.length">
+            <div *ngFor="let childNode of node.parents">
+                <app-connection-hierarchy-node [node]="childNode"></app-connection-hierarchy-node>
+            </div>
+        </ng-container>
+    </div>
+</div>

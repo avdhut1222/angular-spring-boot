@@ -1,0 +1,742 @@
+[
+  {
+    "value": "100BT",
+    "name": "100BT"
+  },
+  {
+    "value": "100GIGE",
+    "name": "100GIGE"
+  },
+  {
+    "value": "1024K",
+    "name": "1024K"
+  },
+  {
+    "value": "1088K",
+    "name": "1088K"
+  },
+  {
+    "value": "10BT",
+    "name": "10BT"
+  },
+  {
+    "value": "10GIGE",
+    "name": "10GIGE"
+  },
+  {
+    "value": "1152K",
+    "name": "1152K"
+  },
+  {
+    "value": "1216K",
+    "name": "1216K"
+  },
+  {
+    "value": "128K",
+    "name": "128K"
+  },
+  {
+    "value": "12MB",
+    "name": "12MB"
+  },
+  {
+    "value": "1472K",
+    "name": "1472K"
+  },
+  {
+    "value": "1544K",
+    "name": "1544K"
+  },
+  {
+    "value": "15MB",
+    "name": "15MB"
+  },
+  {
+    "value": "18MB",
+    "name": "18MB"
+  },
+  {
+    "value": "192K",
+    "name": "192K"
+  },
+  {
+    "value": "20GIGE",
+    "name": "20GIGE"
+  },
+  {
+    "value": "20MB",
+    "name": "20MB"
+  },
+  {
+    "value": "21MB",
+    "name": "21MB"
+  },
+  {
+    "value": "24MB",
+    "name": "24MB"
+  },
+  {
+    "value": "256K",
+    "name": "256K"
+  },
+  {
+    "value": "27MB",
+    "name": "27MB"
+  },
+  {
+    "value": "2GFC",
+    "name": "2GFC"
+  },
+  {
+    "value": "30GIGE",
+    "name": "30GIGE"
+  },
+  {
+    "value": "320K",
+    "name": "320K"
+  },
+  {
+    "value": "384K",
+    "name": "384K"
+  },
+  {
+    "value": "3MB",
+    "name": "3MB"
+  },
+  {
+    "value": "4.5MB",
+    "name": "4.5MB"
+  },
+  {
+    "value": "40GIGE",
+    "name": "40GIGE"
+  },
+  {
+    "value": "448K",
+    "name": "448K"
+  },
+  {
+    "value": "45MB",
+    "name": "45MB"
+  },
+  {
+    "value": "4GFC",
+    "name": "4GFC"
+  },
+  {
+    "value": "5.376MB",
+    "name": "5.376MB"
+  },
+  {
+    "value": "50GIGE",
+    "name": "50GIGE"
+  },
+  {
+    "value": "512K",
+    "name": "512K"
+  },
+  {
+    "value": "56K",
+    "name": "56K"
+  },
+  {
+    "value": "576K",
+    "name": "576K"
+  },
+  {
+    "value": "640K",
+    "name": "640K"
+  },
+  {
+    "value": "6MB",
+    "name": "6MB"
+  },
+  {
+    "value": "704K",
+    "name": "704K"
+  },
+  {
+    "value": "768K",
+    "name": "768K"
+  },
+  {
+    "value": "832K",
+    "name": "832K"
+  },
+  {
+    "value": "896K",
+    "name": "896K"
+  },
+  {
+    "value": "90MB",
+    "name": "90MB"
+  },
+  {
+    "value": "960K",
+    "name": "960K"
+  },
+  {
+    "value": "9MB",
+    "name": "9MB"
+  },
+  {
+    "value": "ADM",
+    "name": "ADM"
+  },
+  {
+    "value": "BRI",
+    "name": "BRI"
+  },
+  {
+    "value": "BRID",
+    "name": "BRID"
+  },
+  {
+    "value": "DS0",
+    "name": "DS0"
+  },
+  {
+    "value": "DS1",
+    "name": "DS1"
+  },
+  {
+    "value": "DS1C",
+    "name": "DS1C"
+  },
+  {
+    "value": "DS1S",
+    "name": "DS1S"
+  },
+  {
+    "value": "DS1SL",
+    "name": "DS1SL"
+  },
+  {
+    "value": "DS2",
+    "name": "DS2"
+  },
+  {
+    "value": "DS2R1",
+    "name": "DS2R1"
+  },
+  {
+    "value": "DS2R2",
+    "name": "DS2R2"
+  },
+  {
+    "value": "DS2R3",
+    "name": "DS2R3"
+  },
+  {
+    "value": "DS3",
+    "name": "DS3"
+  },
+  {
+    "value": "DS3R2",
+    "name": "DS3R2"
+  },
+  {
+    "value": "DS3R3",
+    "name": "DS3R3"
+  },
+  {
+    "value": "DS3X1",
+    "name": "DS3X1"
+  },
+  {
+    "value": "DS3X2",
+    "name": "DS3X2"
+  },
+  {
+    "value": "DS3X3",
+    "name": "DS3X3"
+  },
+  {
+    "value": "DS3X4",
+    "name": "DS3X4"
+  },
+  {
+    "value": "DS3X5",
+    "name": "DS3X5"
+  },
+  {
+    "value": "DS4",
+    "name": "DS4"
+  },
+  {
+    "value": "DS4X1",
+    "name": "DS4X1"
+  },
+  {
+    "value": "DS4X2",
+    "name": "DS4X2"
+  },
+  {
+    "value": "DS4X3",
+    "name": "DS4X3"
+  },
+  {
+    "value": "DS4X4",
+    "name": "DS4X4"
+  },
+  {
+    "value": "DS4X5",
+    "name": "DS4X5"
+  },
+  {
+    "value": "DS4X6",
+    "name": "DS4X6"
+  },
+  {
+    "value": "DS4X7",
+    "name": "DS4X7"
+  },
+  {
+    "value": "DS4X8",
+    "name": "DS4X8"
+  },
+  {
+    "value": "DS4X9",
+    "name": "DS4X9"
+  },
+  {
+    "value": "DS5X1",
+    "name": "DS5X1"
+  },
+  {
+    "value": "DS5X2",
+    "name": "DS5X2"
+  },
+  {
+    "value": "DS5X3",
+    "name": "DS5X3"
+  },
+  {
+    "value": "DS5X4",
+    "name": "DS5X4"
+  },
+  {
+    "value": "DS5X5",
+    "name": "DS5X5"
+  },
+  {
+    "value": "DS5X6",
+    "name": "DS5X6"
+  },
+  {
+    "value": "DS5X7",
+    "name": "DS5X7"
+  },
+  {
+    "value": "DS5X8",
+    "name": "DS5X8"
+  },
+  {
+    "value": "DS5X9",
+    "name": "DS5X9"
+  },
+  {
+    "value": "DS6X1",
+    "name": "DS6X1"
+  },
+  {
+    "value": "DS6X2",
+    "name": "DS6X2"
+  },
+  {
+    "value": "DS6X3",
+    "name": "DS6X3"
+  },
+  {
+    "value": "DS6X4",
+    "name": "DS6X4"
+  },
+  {
+    "value": "DS6X5",
+    "name": "DS6X5"
+  },
+  {
+    "value": "DS6X6",
+    "name": "DS6X6"
+  },
+  {
+    "value": "DS6X7",
+    "name": "DS6X7"
+  },
+  {
+    "value": "DS6X8",
+    "name": "DS6X8"
+  },
+  {
+    "value": "DS6X9",
+    "name": "DS6X9"
+  },
+  {
+    "value": "DS7X1",
+    "name": "DS7X1"
+  },
+  {
+    "value": "DS7X2",
+    "name": "DS7X2"
+  },
+  {
+    "value": "DS7X3",
+    "name": "DS7X3"
+  },
+  {
+    "value": "DS7X4",
+    "name": "DS7X4"
+  },
+  {
+    "value": "DS7X5",
+    "name": "DS7X5"
+  },
+  {
+    "value": "DS7X6",
+    "name": "DS7X6"
+  },
+  {
+    "value": "DS7X7",
+    "name": "DS7X7"
+  },
+  {
+    "value": "DS7X8",
+    "name": "DS7X8"
+  },
+  {
+    "value": "DS7X9",
+    "name": "DS7X9"
+  },
+  {
+    "value": "DS8X1",
+    "name": "DS8X1"
+  },
+  {
+    "value": "DS8X2",
+    "name": "DS8X2"
+  },
+  {
+    "value": "DS8X3",
+    "name": "DS8X3"
+  },
+  {
+    "value": "DS8X4",
+    "name": "DS8X4"
+  },
+  {
+    "value": "DS8X5",
+    "name": "DS8X5"
+  },
+  {
+    "value": "DS8X6",
+    "name": "DS8X6"
+  },
+  {
+    "value": "DS8X7",
+    "name": "DS8X7"
+  },
+  {
+    "value": "DS8X8",
+    "name": "DS8X8"
+  },
+  {
+    "value": "DS8X9",
+    "name": "DS8X9"
+  },
+  {
+    "value": "DS9X1",
+    "name": "DS9X1"
+  },
+  {
+    "value": "DS9X3",
+    "name": "DS9X3"
+  },
+  {
+    "value": "DS9X4",
+    "name": "DS9X4"
+  },
+  {
+    "value": "DS9X5",
+    "name": "DS9X5"
+  },
+  {
+    "value": "DS9X6",
+    "name": "DS9X6"
+  },
+  {
+    "value": "DS9X7",
+    "name": "DS9X7"
+  },
+  {
+    "value": "DS9X8",
+    "name": "DS9X8"
+  },
+  {
+    "value": "DS9X9",
+    "name": "DS9X9"
+  },
+  {
+    "value": "DWDM",
+    "name": "DWDM"
+  },
+  {
+    "value": "E0",
+    "name": "E0"
+  },
+  {
+    "value": "E1",
+    "name": "E1"
+  },
+  {
+    "value": "E2",
+    "name": "E2"
+  },
+  {
+    "value": "E3",
+    "name": "E3"
+  },
+  {
+    "value": "E4",
+    "name": "E4"
+  },
+  {
+    "value": "EC1",
+    "name": "EC1"
+  },
+  {
+    "value": "EC3",
+    "name": "EC3"
+  },
+  {
+    "value": "ENV",
+    "name": "ENV"
+  },
+  {
+    "value": "ESCON",
+    "name": "ESCON"
+  },
+  {
+    "value": "GIGE",
+    "name": "GIGE"
+  },
+  {
+    "value": "IS1",
+    "name": "IS1"
+  },
+  {
+    "value": "IS3",
+    "name": "IS3"
+  },
+  {
+    "value": "N/A",
+    "name": "N/A"
+  },
+  {
+    "value": "OC1",
+    "name": "OC1"
+  },
+  {
+    "value": "OC12",
+    "name": "OC12"
+  },
+  {
+    "value": "OC12C",
+    "name": "OC12C"
+  },
+  {
+    "value": "OC18",
+    "name": "OC18"
+  },
+  {
+    "value": "OC192",
+    "name": "OC192"
+  },
+  {
+    "value": "OC24",
+    "name": "OC24"
+  },
+  {
+    "value": "OC3",
+    "name": "OC3"
+  },
+  {
+    "value": "OC36",
+    "name": "OC36"
+  },
+  {
+    "value": "OC3C",
+    "name": "OC3C"
+  },
+  {
+    "value": "OC48",
+    "name": "OC48"
+  },
+  {
+    "value": "OC48C",
+    "name": "OC48C"
+  },
+  {
+    "value": "OC9",
+    "name": "OC9"
+  },
+  {
+    "value": "OM1",
+    "name": "OM1"
+  },
+  {
+    "value": "OM10",
+    "name": "OM10"
+  },
+  {
+    "value": "OM11",
+    "name": "OM11"
+  },
+  {
+    "value": "OM12",
+    "name": "OM12"
+  },
+  {
+    "value": "OM16",
+    "name": "OM16"
+  },
+  {
+    "value": "OM160",
+    "name": "OM160"
+  },
+  {
+    "value": "OM3",
+    "name": "OM3"
+  },
+  {
+    "value": "OM32",
+    "name": "OM32"
+  },
+  {
+    "value": "OM4",
+    "name": "OM4"
+  },
+  {
+    "value": "OM40",
+    "name": "OM40"
+  },
+  {
+    "value": "OM44",
+    "name": "OM44"
+  },
+  {
+    "value": "OM8",
+    "name": "OM8"
+  },
+  {
+    "value": "OM80",
+    "name": "OM80"
+  },
+  {
+    "value": "OM96",
+    "name": "OM96"
+  },
+  {
+    "value": "STM0",
+    "name": "STM0"
+  },
+  {
+    "value": "STM1",
+    "name": "STM1"
+  },
+  {
+    "value": "STM16",
+    "name": "STM16"
+  },
+  {
+    "value": "STM256",
+    "name": "STM256"
+  },
+  {
+    "value": "STM4",
+    "name": "STM4"
+  },
+  {
+    "value": "STM64",
+    "name": "STM64"
+  },
+  {
+    "value": "STS1",
+    "name": "STS1"
+  },
+  {
+    "value": "STS12",
+    "name": "STS12"
+  },
+  {
+    "value": "STS3",
+    "name": "STS3"
+  },
+  {
+    "value": "STS6",
+    "name": "STS6"
+  },
+  {
+    "value": "SYN15",
+    "name": "SYN15"
+  },
+  {
+    "value": "SYN64",
+    "name": "SYN64"
+  },
+  {
+    "value": "TU11",
+    "name": "TU11"
+  },
+  {
+    "value": "TU12",
+    "name": "TU12"
+  },
+  {
+    "value": "TU2",
+    "name": "TU2"
+  },
+  {
+    "value": "TU3",
+    "name": "TU3"
+  },
+  {
+    "value": "TUG3",
+    "name": "TUG3"
+  },
+  {
+    "value": "VC11",
+    "name": "VC11"
+  },
+  {
+    "value": "VC12",
+    "name": "VC12"
+  },
+  {
+    "value": "VC2",
+    "name": "VC2"
+  },
+  {
+    "value": "VC3",
+    "name": "VC3"
+  },
+  {
+    "value": "VC4",
+    "name": "VC4"
+  },
+  {
+    "value": "VT1",
+    "name": "VT1"
+  },
+  {
+    "value": "VT2",
+    "name": "VT2"
+  },
+  {
+    "value": "VT3",
+    "name": "VT3"
+  },
+  {
+    "value": "VT6",
+    "name": "VT6"
+  }
+]

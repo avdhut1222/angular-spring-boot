@@ -1,0 +1,122 @@
+[
+  {
+    "value": "DOCUMENT_NUMBER",
+    "name": "PSR Number"
+  },
+  {
+    "value": "ECCKT",
+    "name": "Circuit ID"
+  },
+  {
+    "value": "CLD_SVC_ID",
+    "name": "Cloud Service ID"
+  },
+  {
+    "value": "CKT_XREF",
+    "name": "Cross Ref"
+  },
+  {
+    "value": "ACCT_NAME",
+    "name": "Customer Name"
+  },
+  {
+    "value": "DESC_NAME",
+    "name": "Descriptive Name"
+  },
+  {
+    "value": "DIA_RESALE",
+    "name": "Broadband Internet"
+  },
+  {
+    "value": "ECH_ID",
+    "name": "ECH ID"
+  },
+  {
+    "value": "ENH_RT_NBR",
+    "name": "Enhanced Routing Number"
+  },
+  {
+    "value": "ESL_ID",
+    "name": "ESL ID"
+  },
+  {
+    "value": "INTEG_ID",
+    "name": "Integration ID"
+  },
+  {
+    "value": "LD_ONLY",
+    "name": "LD Only"
+  },
+  {
+    "value": "MGD_RTR",
+    "name": "Managed Router ID"
+  },
+  {
+    "value": "MDN",
+    "name": "MDN"
+  },
+  {
+    "value": "MEID",
+    "name": "MEID"
+  },
+  {
+    "value": "NDN",
+    "name": "Network Data Name"
+  },
+  {
+    "value": "NNI_ID",
+    "name": "NNI ID"
+  },
+  {
+    "value": "PNT_TO_NBR",
+    "name": "Pointed To Number"
+  },
+  {
+    "value": "PON",
+    "name": "PON"
+  },
+  {
+    "value": "PROV_SYS_ID",
+    "name": "Provider System ID"
+  },
+  {
+    "value": "RED_GRP_ID",
+    "name": "Redundancy ID"
+  },
+  {
+    "value": "RESALE_LN",
+    "name": "Resale Line"
+  },
+  {
+    "value": "RPON",
+    "name": "RPON"
+  },
+  {
+    "value": "SVC_ACT_NBR",
+    "name": "Service Account #"
+  },
+  {
+    "value": "SERVICE_ID",
+    "name": "Service ID"
+  },
+  {
+    "value": "SHORT_NM",
+    "name": "Short Name"
+  },
+  {
+    "value": "ACCT_NBR",
+    "name": "TBS Acct Number"
+  },
+  {
+    "value": "TN",
+    "name": "Tel Number (NPA-NXX-LINE)"
+  },
+  {
+    "value": "VPN_ID_EUL",
+    "name": "VPN ID"
+  },
+  {
+    "value": "SVC_PROV_ID",
+    "name": "Web Service Provider ID"
+  }
+]

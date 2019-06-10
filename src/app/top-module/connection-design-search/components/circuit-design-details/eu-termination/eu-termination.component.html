@@ -1,0 +1,32 @@
+<!--<div class="end-user-termination-section" *ngIf="endUserTermination">-->
+    <!--<div class="user-info-container" *ngFor="let key of objectKeys(endUserTermination)">-->
+        <!--<strong>{{ key | keyToString }}</strong>-->
+        <!--<table class="table table-hover">-->
+            <!--<tbody>-->
+            <!--<tr *ngFor="let subKey of objectKeys(endUserTermination[key])">-->
+                <!--<td>{{ subKey | keyToString }}</td>-->
+                <!--<td>{{ endUserTermination[key][subKey] }}</td>-->
+            <!--</tr>-->
+            <!--</tbody>-->
+        <!--</table>-->
+    <!--</div>-->
+<!--</div>-->
+
+
+<div class="end-user-termination-section" *ngIf="connectionDesignService.connectionDesignDetails.endUserTermination">
+    <ng-container *ngFor="let key of objectKeys(connectionDesignService.connectionDesignDetails.endUserTermination)">
+        <div *ngIf="connectionDesignService.connectionDesignDetails.endUserTermination[key]">
+            <strong>{{ key | keyToString }}</strong>
+            <div class="row details-container-row">
+                <ng-container *ngFor="let subKey of objectKeys(connectionDesignService.connectionDesignDetails.endUserTermination[key])">
+                    <div class="col-6 details-container-col" *ngIf="connectionDesignService.connectionDesignDetails.endUserTermination[key][subKey]">
+                        <div class="details-container-cell"><b>{{ subKey | keyToString }}</b></div>
+                        <div
+                            class="details-container-cell">{{ connectionDesignService.connectionDesignDetails.endUserTermination[key][subKey] | decodeHtmlString }}</div>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+        <br><br>
+    </ng-container>
+</div>

@@ -1,0 +1,49 @@
+<div class="dashvue-content">
+    <div class="container">
+        <div class="psr-detail-container" *ngIf="psrSearchService.psrDetails">
+            <nav id="navbar-example2" class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="javascript:void(0);">PSR Details</a>
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="order-details" routerLinkActive="active">Order Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="user-detail" routerLinkActive="active">PSR User Data</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="contacts" routerLinkActive="active">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="service-location" routerLinkActive="active">Service Location
+                            Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="circuit-detail" routerLinkActive="active">Circuit Detail</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="trunk-group" routerLinkActive="active">Trunk Group</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="pic-information" routerLinkActive="active">Pic Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="tn-features" routerLinkActive="active">TN Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="hunt-groups" routerLinkActive="active">Hunt Groups</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="notes-information" routerLinkActive="active">Notes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="child-sr-info" routerLinkActive="active">Children Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="sr-hierarchy" routerLinkActive="active">Order Hierarchy</a>
+                    </li>
+                </ul>
+            </nav>
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

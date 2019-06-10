@@ -1,0 +1,15 @@
+<div class="contacts-section" *ngIf="psrSearchService.psrDetails && psrSearchService.psrDetails.contacts">
+    <ng-container *ngFor="let contact of psrSearchService.psrDetails.contacts">
+        <div class="row details-container-row" *ngIf="contact">
+            <ng-container *ngFor="let key of objectKeys(contact)">
+                <div class="col-6 details-container-col" *ngIf="contact[key]">
+                    <div class="details-container-cell"><b>{{ key | keyToString }}</b></div>
+                    <div class="details-container-cell">{{ contact[key] }}</div>
+                </div>
+            </ng-container>
+            <!--<div class="col6 details-container-col"></div>-->
+        </div>
+        <br>
+        <br>
+    </ng-container>
+</div>

@@ -1,0 +1,22 @@
+<!--<div class="administrative-section">-->
+  <!--<table class="table table-hover">-->
+    <!--<tbody *ngIf="administrativeInformation">-->
+    <!--<tr *ngFor="let key of objectKeys(administrativeInformation)">-->
+      <!--<td>{{ key | keyToString }}</td>-->
+      <!--<td>{{ administrativeInformation[key] }}</td>-->
+    <!--</tr>-->
+    <!--</tbody>-->
+  <!--</table>-->
+<!--</div>-->
+
+<div class="administrative-section">
+    <div class="row details-container-row"
+         *ngIf="connectionDesignService.connectionDesignDetails && connectionDesignService.connectionDesignDetails.administrativeInformation">
+        <ng-container *ngFor="let key of objectKeys(connectionDesignService.connectionDesignDetails.administrativeInformation)">
+        <div class="col-6 details-container-col" *ngIf="connectionDesignService.connectionDesignDetails.administrativeInformation[key]">
+            <div class="details-container-cell"><b>{{ key | keyToString }}</b></div>
+            <div class="details-container-cell">{{ connectionDesignService.connectionDesignDetails.administrativeInformation[key] | decodeHtmlString }}</div>
+        </div>
+        </ng-container>
+    </div>
+</div>

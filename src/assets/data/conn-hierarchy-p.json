@@ -1,0 +1,50 @@
+[
+    {
+        "circuitDesignId": 13580558,
+        "circuitId": "SF/LZXX/255912/   /TQW /HUB",
+        "circuitType": "C",
+        "status": "In Service",
+        "parents": [
+            {
+                "circuitDesignId": 12013623,
+                "circuitId": "306  /OM10  /FRMTCAEDHQP/PLALCA01HAS",
+                "circuitType": "F",
+                "status": "In Service",
+                "parents": [
+                    {
+                        "circuitDesignId": 11090647,
+                        "circuitId": "301  /OM80  /FRMTCAEDHQP/PLALCA01HAS",
+                        "circuitType": "F",
+                        "status": "In Service"
+                    }
+                ]
+            },
+            {
+                "circuitDesignId": 12013625,
+                "circuitId": "356  /OM10  /FRMTCAEDHQP/PLALCA01HAS",
+                "circuitType": "F",
+                "status": "In Service",
+                "parents": [
+                    {
+                        "circuitDesignId": 11090640,
+                        "circuitId": "301  /OM80  /SNJUCACLHAP/SNVACAIDH88",
+                        "circuitType": "F",
+                        "status": "In Service"
+                    },
+                    {
+                        "circuitDesignId": 11090641,
+                        "circuitId": "301  /OM80  /FRMTCAEDHQP/SNJUCACLHAP",
+                        "circuitType": "F",
+                        "status": "In Service"
+                    },
+                    {
+                        "circuitDesignId": 11090644,
+                        "circuitId": "301  /OM80  /PLALCA01HAS/SNVACAIDH88",
+                        "circuitType": "F",
+                        "status": "In Service"
+                    }
+                ]
+            }
+        ]
+    }
+]

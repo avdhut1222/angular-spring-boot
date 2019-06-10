@@ -1,0 +1,54 @@
+<div class="dashvue-content">
+  <div class="container icon-jumbotron-container">
+    <div class="jumbotron dashvue-jumbotron">
+      <div class="connection-search-form">
+        <h4>Connection Design Search</h4>
+
+        <form id="top-connection-search-form" (submit)="connectionSearchFormSubmit()" class="needs-validation">
+
+          <div class="form-group">
+            <div class="custom-control custom-radio">
+              <input type="radio" id="circuitTypeF" name="circuitType" value="F" [(ngModel)]="circuitType" class="custom-control-input" checked="checked">
+              <label class="custom-control-label" for="circuitTypeF">Facility</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="circuitTypeS" name="circuitType" value="S" [(ngModel)]="circuitType" class="custom-control-input">
+              <label class="custom-control-label" for="circuitTypeS">Special</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="circuitTypeT" name="circuitType" value="T" [(ngModel)]="circuitType" class="custom-control-input">
+              <label class="custom-control-label" for="circuitTypeT">Trunk</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="a-network-location">A-Network Location</label>
+            <input type="text" class="form-control" id="a-network-location" name="a-network-location" [(ngModel)]="aNetworkLocation" placeholder="" style="width: 400px;">
+          </div>
+
+          <div class="form-group">
+            <label for="z-network-location">Z-Network Location</label>
+            <input type="text" class="form-control" id="z-network-location" name="z-network-location" [(ngModel)]="zNetworkLocation" placeholder="" style="width: 400px;">
+          </div>
+
+          <div class="form-group">
+            <label for="connection-designation">Designation</label>
+            <input type="text" class="form-control" id="connection-designation" name="connection-designation" [(ngModel)]="connectionDesignation" placeholder="" style="width: 400px;">
+          </div>
+
+          <div class="form-group" *ngIf="rateCodes">
+            <label for="rate-code">Rate Code</label>
+            <select class="form-control custom-select" id="rate-code" name="rate-code" [(ngModel)]="selectedRateCode" style="width: 400px; display: block !important;">
+              <option selected>Select search criteria</option>
+              <option *ngFor="let rateCode of rateCodes" [value]="rateCode.value">{{ rateCode.name }}</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,58 @@
+<div class="service-location-section" *ngIf="psrServiceLocation">
+
+    <div class="location-info-container" *ngIf="psrServiceLocation">
+        <strong>PSR Service Location Information</strong>
+        <div class="row details-container-row">
+            <ng-container *ngFor="let subKey of objectKeys(psrServiceLocation)">
+                <div class="col-6 details-container-col" *ngIf="psrServiceLocation[subKey]">
+                    <div class="details-container-cell"><b>{{ subKey | keyToString }}</b></div>
+                    <div class="details-container-cell">{{ psrServiceLocation[subKey] }}</div>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+
+    <div class="location-info-container" *ngIf="childSRs.childAsr && childSRs.childAsr.length > 0">
+        <strong>ASR Service Location Information</strong>
+        <ng-container *ngFor="let asrServiceLocation of childSRs.childAsr">
+            <div class="row details-container-row" *ngIf="asrServiceLocation.address">
+                <ng-container *ngFor="let addressKey of objectKeys(asrServiceLocation.address)">
+                    <div class="col-6 details-container-col" *ngIf="asrServiceLocation.address[addressKey]">
+                        <div class="details-container-cell">{{ addressKey | keyToString }}</div>
+                        <div class="details-container-cell">{{ asrServiceLocation.address[addressKey] }}</div>
+                    </div>
+                </ng-container>
+            </div>
+        </ng-container>
+    </div>
+
+    <div class="location-info-container" *ngIf="childSRs.childLsr && childSRs.childLsr.length > 0">
+        <strong>LSR Service Location Information</strong>
+        <ng-container *ngFor="let lsrServiceLocation of childSRs.childLsr">
+            <div class="row details-container-row" *ngIf="lsrServiceLocation.address">
+                <ng-container *ngFor="let addressKey of objectKeys(lsrServiceLocation.address)">
+                    <div class="col-6 details-container-col" *ngIf="lsrServiceLocation.address[addressKey]">
+                        <div class="details-container-cell">{{ addressKey | keyToString }}</div>
+                        <div class="details-container-cell">{{ lsrServiceLocation.address[addressKey] }}</div>
+                    </div>
+                </ng-container>
+            </div>
+        </ng-container>
+    </div>
+
+
+    <!--<div class="location-info-container" *ngIf="childSRs.childLsr && childSRs.childLsr.length > 0">-->
+        <!--<strong>LSR Service Location Information</strong>-->
+        <!--<div class="contact-container" *ngFor="let lsrServiceLocation of childSRs.childLsr">-->
+            <!--<table class="table table-hover">-->
+                <!--<tbody>-->
+                <!--<tr *ngFor="let addressKey2 of objectKeys(lsrServiceLocation.address)">-->
+                    <!--<td>{{ addressKey2 | keyToString }}</td>-->
+                    <!--<td>{{ lsrServiceLocation.address[addressKey2] }}</td>-->
+                <!--</tr>-->
+                <!--</tbody>-->
+            <!--</table>-->
+        <!--</div>-->
+    <!--</div>-->
+
+</div>

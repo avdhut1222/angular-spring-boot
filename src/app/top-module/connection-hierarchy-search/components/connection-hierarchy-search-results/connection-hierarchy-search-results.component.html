@@ -1,0 +1,10 @@
+<div class="dashvue-content">
+    <div class="container">
+        <div class="connection-hierarchy-search-results-container"
+             *ngIf="connectionHierarchyList && connectionHierarchyList.length > 0">
+            <ng-container *ngFor="let node of connectionHierarchyList">
+                <app-connection-hierarchy-node [node]="node"></app-connection-hierarchy-node>
+            </ng-container>
+        </div>
+    </div>
+</div>

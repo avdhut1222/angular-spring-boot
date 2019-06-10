@@ -1,0 +1,71 @@
+<div class="dashvue-content">
+    <div class="container icon-jumbotron-container">
+        <div class="jumbotron dashvue-jumbotron">
+            <div class="connection-search-form">
+                <h4>Connection Hierarchy Search</h4>
+
+                <form id="top-connection-search-form" (submit)="connectionHierarchyFormSubmit()" class="needs-validation">
+
+                    <div class="form-group">
+                        <label>Include:</label>
+                        <div *ngFor="let option of cktTypeOptions; let i = index">
+                            <label>
+                                <input type="checkbox"
+                                       class="form-check-input"
+                                       [name]="option.name"
+                                       [value]="option.value"
+                                       [(ngModel)]="option.checked"/>
+                                {{option.name}}
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="identification">Identification</label>
+                        <input type="text" class="form-control" id="identification" name="identification" [(ngModel)]="connectionHierarchySearchModel.ecckt" placeholder="" style="width: 400px;">
+                        <label><input type="checkbox"
+                                      class="form-check-input"
+                                      name="eccktExactMatch"
+                                      [(ngModel)]="connectionHierarchySearchModel.eccktExactMatch"> Exact Match</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="connection-reference">Connection Reference</label>
+                        <input type="text" class="form-control" id="connection-reference" name="connection-reference" [(ngModel)]="connectionHierarchySearchModel.connectionReference" placeholder="" style="width: 400px;">
+                        <label><input type="checkbox"
+                                      class="form-check-input"
+                                      name="connXrefExactMatch"
+                                      [(ngModel)]="connectionHierarchySearchModel.connXrefExactMatch"> Exact Match</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="network-location-a">Network Location A</label>
+                        <input type="text" class="form-control" id="network-location-a" name="network-location-a" [(ngModel)]="connectionHierarchySearchModel.locationA" placeholder="" style="width: 400px;">
+                        <label><input type="checkbox"
+                                      class="form-check-input"
+                                      name="locAExactMatch"
+                                      [(ngModel)]="connectionHierarchySearchModel.locationAExactMatch"> Exact Match</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="network-location-z">Network Location Z</label>
+                        <input type="text" class="form-control" id="network-location-z" name="network-location-z" [(ngModel)]="connectionHierarchySearchModel.locationZ" placeholder="" style="width: 400px;">
+                        <label><input type="checkbox"
+                                      class="form-check-input"
+                                      name="locZExactMatch"
+                                      [(ngModel)]="connectionHierarchySearchModel.locationZExactMatch"> Exact Match</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label><input type="radio" name="lookupChildren" [(ngModel)]="connectionHierarchySearchModel.lookupChildren" [value]="true"> Down</label>
+                        <label><input type="radio" name="lookupChildren" [(ngModel)]="connectionHierarchySearchModel.lookupChildren" [value]="false"> Up</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

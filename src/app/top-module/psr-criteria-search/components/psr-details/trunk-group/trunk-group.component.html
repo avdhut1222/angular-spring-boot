@@ -1,0 +1,14 @@
+<div class="trunk-group-detail-section"
+     *ngIf="psrSearchService.psrDetails && psrSearchService.psrDetails.trunkGroups && psrSearchService.psrDetails.trunkGroups.length > 0">
+    <ng-container *ngFor="let trunkGroup of psrSearchService.psrDetails.trunkGroups">
+        <div class="row details-container-row">
+            <ng-container *ngFor="let key of objectKeys(trunkGroup)">
+                <div class="col-6 details-container-col"
+                     *ngIf="trunkGroup[key]">
+                    <div class="details-container-cell"><b>{{ key | keyToString }}</b></div>
+                    <div class="details-container-cell">{{ trunkGroup[key] | decodeHtmlString }}</div>
+                </div>
+            </ng-container>
+        </div>
+    </ng-container>
+</div>

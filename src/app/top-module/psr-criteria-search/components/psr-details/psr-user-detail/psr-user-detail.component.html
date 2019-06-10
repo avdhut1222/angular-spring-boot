@@ -1,0 +1,11 @@
+<div class="psr-user-data-section">
+    <div class="row details-container-row"
+         *ngIf="psrSearchService.psrDetails && psrSearchService.psrDetails.userDefinedFields && psrSearchService.psrDetails.userDefinedFields.length > 0">
+        <ng-container *ngFor="let userDefinedField of psrSearchService.psrDetails.userDefinedFields">
+            <div class="col-6 details-container-col" *ngIf="userDefinedField.udfDisplayValue">
+                <div class="details-container-cell"><b>{{ userDefinedField.udfName }}</b></div>
+                <div class="details-container-cell">{{ userDefinedField.udfDisplayValue }}</div>
+            </div>
+        </ng-container>
+    </div>
+</div>

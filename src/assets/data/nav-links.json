@@ -1,0 +1,253 @@
+[
+    {
+        "name": "Dashvue Links",
+        "navLinks": [
+            {
+                "name": "My Groups",
+                "aHref": "/my-groups",
+                "mediaSrc": "dv_my_groups.png",
+                "altText": "My Groups",
+                "isDashvueLink": true
+            },
+            {
+                "name": "LEC Escalation",
+                "aHref": "/lec-escalation",
+                "mediaSrc": "dv_lec_escalation.png",
+                "altText": "LEC Escalation",
+                "isDashvueLink": true,
+                "subLinks": [
+                  {
+                    "name": "Legacy LEC Escalation",
+                    "aHref": "/lec-escalation/legacy",
+                    "mediaSrc": "dv_lec_escalation.png",
+                    "altText": "Legacy LEC Escalation",
+                    "isDashvueLink": true
+                  },
+                  {
+                    "name": "NDMT LEC Escalation",
+                    "aHref": "/lec-escalation/ndmt",
+                    "mediaSrc": "dv_lec_escalation.png",
+                    "altText": "NDMT LEC Escalation",
+                    "isDashvueLink": true
+                  }
+                ]
+            },
+            {
+                "name": "ASR Notes",
+                "aHref": "/asr-notes",
+                "mediaSrc": "dv_asr_notes.png",
+                "altText": "ASR Notes",
+                "isDashvueLink": true
+            },
+            {
+                "name": "TOP",
+                "aHref": "/top",
+                "mediaSrc": "dv_top.png",
+                "altText": "TBS Online Preview",
+                "isDashvueLink": true,
+                "subLinks": [
+                  {
+                    "name": "PSR",
+                    "aHref": "/top/psr-search",
+                    "mediaSrc": "dv_search.png",
+                    "altText": "PSR Search",
+                    "isDashvueLink": true
+                  },
+                  {
+                    "name": "Connection Design",
+                    "aHref": "/top/connection-design-search",
+                    "mediaSrc": "dv_search.png",
+                    "altText": "Connection Design Search",
+                    "isDashvueLink": true
+                  },
+                  {
+                    "name": "Connection Hierarchy",
+                    "aHref": "/top/connection-hierarchy",
+                    "mediaSrc": "dv_search.png",
+                    "altText": "Connection Hierarchy",
+                    "isDashvueLink": true
+                  }
+                ]
+            },
+            {
+                "name": "CNR",
+                "aHref": "/cnr",
+                "mediaSrc": "dv_cnr.png",
+                "altText": "CNR",
+                "isDashvueLink": true
+            },
+            {
+                "name": "Order Summary",
+                "aHref": "/order-summary",
+                "mediaSrc": "dv_summary.png",
+                "altText": "Order Summary",
+                "isDashvueLink": true
+            },
+            {
+                "name": "NAC - FFA",
+                "aHref": "/nac-ffa",
+                "mediaSrc": "dv_faa.png",
+                "altText": "NAC Failure After Acceptance Tool",
+                "isDashvueLink": true
+            },
+            {
+                "name": "XREF",
+                "aHref": "/cross-ref",
+                "mediaSrc": "dv_xref.png",
+                "altText": "Circuit XREF Tool",
+                "isDashvueLink": true
+            },
+            {
+                "name": "HBPX",
+                "aHref": "/hbpx",
+                "mediaSrc": "dv_hbpx.png",
+                "altText": "HBPX Apps",
+                "isDashvueLink": true
+            }
+        ]
+    },
+    {
+        "name": "XO Links",
+        "navLinks": [
+            {
+                "name": "XO360",
+                "aHref": "http://xo360",
+                "mediaSrc": "dv_compass.png",
+                "altText": "XO360",
+                "isDashvueLink": false
+            },
+            {
+                "name": "TBS Web Tools",
+                "aHref": "http://tbsapps",
+                "mediaSrc": "dv_tool.png",
+                "altText": "TBS Web Tools",
+                "isDashvueLink": false
+            },
+            {
+                "name": "Siebel/LINX",
+                "aHref": "http://xolinx",
+                "mediaSrc": "dv_pen.png",
+                "altText": "Siebel/LINX",
+                "isDashvueLink": false
+            },
+            {
+                "name": "Insight",
+                "aHref": "http://insite/INSite/launchSingleSearch.do",
+                "mediaSrc": "dv_address.png",
+                "altText": "Insight",
+                "isDashvueLink": false
+            },
+            {
+                "name": "NAPT",
+                "aHref": "http://napt/napt/",
+                "mediaSrc": "dv_coins.png",
+                "altText": "NAPT",
+                "isDashvueLink": false
+            },
+            {
+                "name": "iPrice",
+                "aHref": "http://iPrice/",
+                "mediaSrc": "dv_coins.png",
+                "altText": "iPrice",
+                "isDashvueLink": false
+            },
+            {
+                "name": "Finance ICB",
+                "aHref": "http://xooe/ICB/ICB/Login.aspx",
+                "mediaSrc": "dv_coins.png",
+                "altText": "Finance ICB Tool",
+                "isDashvueLink": false
+            },
+            {
+                "name": "QDR",
+                "aHref": "http://plaqdaprd01/qda/services/qdrPrint.php",
+                "mediaSrc": "dv_coins.png",
+                "altText": "QDR",
+                "isDashvueLink": false
+            },
+            {
+                "name": "Tech ICB",
+                "aHref": "http://10.36.1.15/techicb/all_approved_icbs.cgi",
+                "mediaSrc": "dv_coins.png",
+                "altText": "Tech ICB",
+                "isDashvueLink": false
+            },
+            {
+                "name": "Order Summary Portal",
+                "aHref": "http://platgwprd01:8480/wor/searchpsr.jsp",
+                "mediaSrc": "dv_osp.png",
+                "altText": "Order Summary Portal",
+                "isDashvueLink": false
+            },
+            {
+                "name": "Knowledge Hub",
+                "aHref": "http://connectxo/depts/process/processlibrary/Pages/KnowledgeHUB.aspx",
+                "mediaSrc": "dv_coins.png",
+                "altText": "Knowledge Hub",
+                "isDashvueLink": false
+            }
+        ]
+    },
+    {
+        "name": "External LEC Tools",
+        "navLinks": [
+            {
+                "name": "AT&amp;T Caf&eacute;",
+                "aHref": "https://portal.wholesale.att.com/",
+                "mediaSrc": "dv_link.png",
+                "altText": "ATT Cafe",
+                "isDashvueLink": false
+            },
+            {
+                "name": "AT&amp;T Prime",
+                "aHref": "https://access-os2.att.com/waoWeb/loginDisplay.do",
+                "mediaSrc": "dv_link.png",
+                "altText": "ATT Prime",
+                "isDashvueLink": false
+            },
+            {
+                "name": "AT&amp;T Verigate",
+                "aHref": "https://oss.att.com/toolbar/index.html",
+                "mediaSrc": "dv_link.png",
+                "altText": "ATT Verigate",
+                "isDashvueLink": false
+            },
+            {
+                "name": "Covad",
+                "aHref": "http://support.covad.com/csp/account",
+                "mediaSrc": "dv_link.png",
+                "altText": "Covad",
+                "isDashvueLink": false
+            },
+            {
+                "name": "Embarq (EASA)",
+                "aHref": "http://ease.centurylink.com/",
+                "mediaSrc": "dv_Link.png",
+                "altText": "Embarq (EASE)",
+                "isDashvueLink": false
+            },
+            {
+                "name": "Embarq (VFO)",
+                "aHref": "https://ease-asr.centurylink.com/login.jsp",
+                "mediaSrc": "dv_link.png",
+                "altText": "Embarq (VFO)",
+                "isDashvueLink": false
+            },
+            {
+                "name": "Verizon Global",
+                "aHref": "https://www22.verizon.com/wholesale/secure/sso/ws_login/?TYPE=33554433&amp;REALMOID=06-3e9d7b25-78c2-001f-0000-1aa800001aa8&amp;GUID=&amp;SMAUTHREASON=0&amp;METHOD=GET&amp;SMAGENTNAME=$SM$Vp08VDGuopSZ3SoQ0adGoMCLO%2b9KGrunpGdHrlK3U1o%3d&amp;TARGET=$SM$http%3a%2f%2fwww22%2everizon%2ecom%2fwholesale%2fsecure%2faccess%2fsystems%2fhome%2ejsp---",
+                "mediaSrc": "dv_link.png",
+                "altText": "Verizon Global Wholesale",
+                "isDashvueLink": false
+            },
+            {
+                "name": "Verizon LSI",
+                "aHref": "https://wholesalegw.verizon.com/gsi/LSI",
+                "mediaSrc": "dv_link.png",
+                "altText": "Verizon LSI",
+                "isDashvueLink": false
+            }
+        ]
+    }
+
+]
